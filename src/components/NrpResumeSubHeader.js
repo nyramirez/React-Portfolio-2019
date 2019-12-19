@@ -21,8 +21,8 @@ const NrpResumeSubHeader = () => (
             <Link className="subHeader__title" to="/technical_skills">
                 <h5>TECHNICAL SKILLS</h5>
             </Link>
-            <Link className="subHeader__title" to="/proven_skills">
-                <h5>PROVEN SKILLS</h5>
+            <Link className="subHeader__title" to="/soft_skills">
+                <h5>SOFT SKILLS</h5>
             </Link>
         </div>
         <div className="subHeader__content">

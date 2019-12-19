@@ -9,6 +9,9 @@ import resumeExperience from '../components/resumeExperience';
 import resumeEducation from '../components/resumeEducation';
 import resumeCertifications from '../components/resumeCertifications';
 import resumeTechnicalSkils from '../components/resumeTechnicalSkils';
+import resumeSoftSkils from '../components/resumeSoftSkills';
+import resumeProjects from '../components/resumeProjects';
+import resumeReferences from '../components/resumeReferences';
 
 export const history = createBrowserHistory();
 
@@ -56,7 +59,9 @@ const AppRouter = () => {
                 <Route path="/education" component={resumeEducation}/>
                 <Route path="/certification" component={resumeCertifications}/>
                 <Route path="/technical_skills" component={resumeTechnicalSkils}/>
-
+                <Route path="/soft_skills" component={resumeSoftSkils}/>
+                <Route path="/projects" component={resumeProjects}/>
+                <Route path="/references" component={resumeReferences}/>
                 <Route component={NotFoundPage} />
             </Switch>
         </div>

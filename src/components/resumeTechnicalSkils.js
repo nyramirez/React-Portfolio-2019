@@ -48,44 +48,45 @@ const resumeTechnicalSkils = () => {
                         }
                     />
                 </div>
-            </div>
-            <div className="content-container">
-                <CircularProgressbar
-                    value="50"
-                    text="HTML"
-                    circleRatio=".75"
-                    className="proficiencyGraph"
-                    strokeWidth="10"
-                    styles={
-                        buildStyles({
-                            rotation: 0.3,
-                        })
-                    }
-                />
-                <CircularProgressbar
-                    value="50"
-                    text="CSS"
-                    circleRatio=".75"
-                    className="proficiencyGraph"
-                    strokeWidth="10"
-                    styles={
-                        buildStyles({
-                            rotation: 0.3,
-                        })
-                    }
-                />
-                <CircularProgressbar
-                    value="50"
-                    text="JavaScript"
-                    circleRatio=".75"
-                    className="proficiencyGraph"
-                    strokeWidth="10"
-                    styles={
-                        buildStyles({
-                            rotation: 0.3,
-                        })
-                    }
-                />
+                <div className="graph-container">
+                    <CircularProgressbar
+                        value="50"
+                        text="HTML"
+                        circleRatio=".75"
+                        className="proficiencyGraph"
+                        strokeWidth="10"
+                        styles={
+                            buildStyles({
+                                rotation: 0.3,
+                            })
+                        }
+                    />
+                    <CircularProgressbar
+                        value="50"
+                        text="CSS"
+                        circleRatio=".75"
+                        className="proficiencyGraph"
+                        strokeWidth="10"
+                        styles={
+                            buildStyles({
+                                rotation: 0.3,
+                            })
+                        }
+                    />
+                    <CircularProgressbar
+                        value="50"
+                        text="JavaScript"
+                        circleRatio=".75"
+                        className="proficiencyGraph"
+                        strokeWidth="10"
+                        styles={
+                            buildStyles({
+                                rotation: 0.3,
+                            })
+                        }
+                    />
+                </div>
+
             </div>
         </div>)
 }
