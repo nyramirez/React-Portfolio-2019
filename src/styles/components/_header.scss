@@ -1,0 +1,33 @@
+.header {
+    background: $dark-blue;
+    
+    @media(min-width: $desktop-breakpoint) {
+        top:0;
+        width: 100%;
+    }
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: $xs-size 0;
+    @media(min-width: $desktop-breakpoint) {
+        flex-direction: row;
+        padding: $s-size 0;
+    }
+}
+
+.header__title {
+    color: white;
+    text-decoration: none;
+    h1{
+        margin: 0;
+        font-size: $l-size;
+    }
+    h3{
+        padding: 0 $xs-size;
+
+    }
+}

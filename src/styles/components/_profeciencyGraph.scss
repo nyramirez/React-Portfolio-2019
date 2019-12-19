@@ -1,0 +1,16 @@
+.proficiencyGraph {
+    max-width: 60vw;
+    max-height: 60vh;
+
+    @media(min-width: $desktop-breakpoint) {
+        margin:0;
+        padding: $s-size;
+        max-width: 27vw;
+        max-height: 27vh;
+        .CircularProgressbar-text {
+            font-size: $font-size-xsmall;
+            fill: $off-white;
+            text-anchor: middle;
+        }
+    }
+}
