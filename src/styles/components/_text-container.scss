@@ -1,0 +1,32 @@
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: $xs-size $s-size;
+    .objTitle {
+        font-size: $font-size-medium;
+    }
+    .objText {
+        font-size: $font-size-small;
+        margin: 0;
+        text-align: justify;
+    }
+
+    @media(min-width: $desktop-breakpoint) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: $xs-size $l-size;
+        .objTitle {
+            font-size: $font-size-xlarge;
+        }
+        .objText {
+            font-size: $font-size-medium;
+            margin: 0;
+            text-align: justify;
+        }
+    }
+
+}

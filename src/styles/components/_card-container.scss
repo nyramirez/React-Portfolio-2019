@@ -1,0 +1,33 @@
+.main-page-card {
+    background-color: $off-white;
+    max-width: $main-page-card;
+}
+
+.card-container {
+    width: $card-large-size;
+    height: $card-large-size;
+    padding: $xs-size;
+
+    @media (min-width: $desktop-breakpoint){
+        width: $card-large-size;
+        height: $card-large-size;
+    }
+}
+
+.style__card {
+    width: $card-large-size;
+    height: $card-medium-size;
+    margin: $xs-size;
+
+    @media (min-width: $desktop-breakpoint){
+        width: $card-large-size;
+        height: $card-large-size;
+    }
+
+    .MuiCardContent-root:last-child {
+        padding-bottom: 0;
+    }
+    .MuiCardContent-root {
+        padding: $xs-size 0;
+    }
+}

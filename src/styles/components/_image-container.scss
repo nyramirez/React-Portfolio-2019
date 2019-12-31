@@ -1,0 +1,42 @@
+// Styles for image container.
+// Location: Objective Screen,  
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: $m-size 0;
+
+    @media(min-width: $desktop-breakpoint) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: $xs-size $l-size;
+    }
+
+    // Media styles for pictures in resume submenu
+    .image__resume-cards {
+        width: $card-medium-size;
+        height: $card-small-size;
+        @media(min-width: $desktop-breakpoint) {
+            width: $card-large-size;
+            height: $card-medium-size;
+        }
+    }
+
+    // Media styles for Picture in objective screen.
+    // Inside of Image Container
+    .objective-pic{
+        width: 60vw;
+        height: 20vh;
+
+        @media(min-width: $desktop-breakpoint) {
+            width: 75vw;
+            height: 33vh;
+        }
+    }
+    //**********************************************
+
+
+}

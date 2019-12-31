@@ -2,7 +2,7 @@
     background: $off-white;
 
     @media(min-width: $desktop-breakpoint) {
-        width: 100%;
+        max-width: $main-page-card;
     }
 }
 
@@ -10,8 +10,9 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: $xs-size 0;
+    justify-content: space-evenly;
+    padding: 0;
+    
     @media(min-width: $desktop-breakpoint) {
         flex-direction: row;
         padding: $s-size 0;
@@ -28,3 +29,4 @@
         }
     }
 }
+
